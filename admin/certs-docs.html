@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates & Documents</title>
+    <link rel="stylesheet" href="admin-css/certs-docs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="fa-solid fa-city"></i>
+                <span>BSP</span>
+            </div>
+            <i class="fas fa-bars" id="btn"></i>
+        </div>
+
+        <div class="dashboard">
+            <ul>
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fas fa-qrcode"></i>
+                        <span class="nav-item">Dashboard</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+
+        <div class="menu">
+            <h1>MENU</h1>
+            <ul>
+                <li>
+                    <a href="events-anns.html">
+                        <i class="fas fa-calendar"></i>
+                       <span class="nav-item">Events & Announcements</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="brgy.officials.html">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="nav-item">Brgy. Officials</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="cert-docs.html" class="active">
+                        <i class="fa-regular fa-file"></i>
+                        <span class="nav-item">Certificates & Documents</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="document-fees.html">
+                        <i class="fa-solid fa-peso-sign"></i>
+                        <span class="nav-item">Document Fees</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="system">
+            <h1>SYSTEM</h1>
+            <ul>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="nav-item">Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="log-out">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span class="nav-item">Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="main-content">
+        <div class="top">
+            <h1>Welcome Admin</h1>
+        </div>
+
+        <div class="header">
+            <p class="h1">Certificates & Documents</p>
+            <p class="h2">Certificates & Documents Management</p>
+        </div>
+
+        <!-- BARANGAY-CLEARANCE -->
+
+        <div class="wrapper">
+            <header class="header" style="color: transparent">
+                BSP
+            </header>
+    
+            <div class="screen">
+                <div class="title2">
+                    <h3>Barangay Clearance</h3>
+                </div>
+    
+                <div class="outline-container">
+                    <h2>64</h2>
+                    <p>Brgy. Clearance Request</p>
+                </div>
+    
+                <div class="card-table">
+    
+                    <div class="search_container">
+                        <form method="GET" class="searchform">
+                          <input type="search" placeholder="Search" class="search-field" name="search" />
+                          <button type="submit" class="search-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </form>
+                    </div>
+    
+                    <div class="table-wrapper">
+                        <table class="custom-table">
+                            <thead>
+                                <tr>
+                                    <td>resident no.</td>
+                                    <td>status</td>
+                                    <td>purpose</td>
+                                    <td>transaction id</td>
+                                    <td>actions</td>
+                                </tr>
+    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>287dasfg</td>
+                                    <td>PAID</td>
+                                    <td>Scholarship</td>
+                                    <td>1e37f0-37sldg-dsa2-sdge3u</td>
+                                    <td>
+                                        <form action="">
+                                            <select class="action" name="" id="" >
+                                                <option value="">Actions</option>
+                                                <option value="">Approve Request</option>
+                                                <option value="">Reject Request</option>
+                                            </select>
+                                            <button type="submit">Go</button>
+                                        </form>
+                                        
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+    
+                    <div class="pagination-wrapper">
+                        <div class="pagination">
+                            <a href="#">&laquo;</a>
+                            <a href="#">&#8249;</a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">&#8250;</a>
+                            <a href="#">&raquo;</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+    
+        </div>
+
+
+        <!-- INDIGENCY -->
+
+        <div class="wrapper">
+
+            <header class="header" style="color: transparent">
+                BSP
+            </header>
+    
+            <div class="screen">
+                <div class="title2">
+                    <h3>Certificate of Indigency</h3>
+                </div>
+    
+                <div class="outline-container">
+                    <h2>13</h2>
+                    <p>Certificate of Indigency Request</p>
+                </div>
+    
+                <div class="card-table">
+    
+                    <div class="search_container">
+                        <form method="GET" class="searchform">
+                          <input type="search" placeholder="Search" class="search-field" name="search" />
+                          <button type="submit" class="search-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </form>
+                    </div>
+    
+    
+                    <div class="table-wrapper">
+                        <table class="custom-table">
+                            <thead>
+                                <tr>
+                                    <td>resident no.</td>
+                                    <td>status</td>
+                                    <td>purpose</td>
+                                    <td>transaction id</td>
+                                    <td>actions</td>
+                                </tr>
+    
+                            </thead>
+                            <tbody>
+    
+                                <tr>
+                                    <td>287dasfg</td>
+                                    <td>PAID</td>
+                                    <td>Scholarship</td>
+                                    <td>1e37f0-37sldg-dsa2-sdge3u</td>
+                                    <td>
+                                        <form action="">
+                                            <select class="action" name="" id="" >
+                                                <option value="">Actions</option>
+                                                <option value="">Approve Request</option>
+                                                <option value="">Reject Request</option>
+                                            </select>
+                                            <button type="submit">Go</button>
+                                        </form>
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1231sf1g</td>
+                                    <td>PAID</td>
+                                    <td>School Requirement</td>
+                                    <td>1es37d0-23sldg-dsa3-sdgerty</td>
+                                    <td>
+                                        <form action="">
+                                            <select class="action" name="" id="" >
+                                                <option value="">Actions</option>
+                                                <option value="">Approve Request</option>
+                                                <option value="">Reject Request</option>
+                                            </select>
+                                            <button type="submit">Go</button>
+                                        </form>
+                                        
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+    
+                    <div class="pagination-wrapper">
+                        <div class="pagination">
+                            <a href="#">&laquo;</a>
+                            <a href="#">&#8249;</a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">&#8250;</a>
+                            <a href="#">&raquo;</a>
+                        </div>
+                    </div>
+                    
+    
+                </div>
+    
+    
+            </div>
+    
+        </div>
+
+        <!-- PERMIT -->
+
+        <div class="wrapper">
+            <header class="header" style="color: transparent">
+                BSP
+            </header>
+    
+            <div class="screen">
+                <div class="title2">
+                    <h3>Business Permit</h3>
+                </div>
+    
+                <div class="outline-container">
+                    <h2>105</h2>
+                    <p>Business Permit Request</p>
+                </div>
+    
+                <div class="card-table">
+                    
+                    <div class="search_container">
+                        <form method="GET" class="searchform">
+                          <input type="search" placeholder="Search" class="search-field" name="search" />
+                          <button type="submit" class="search-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                          </button>
+                        </form>
+                    </div>
+    
+                    <div class="table-wrapper">
+                        <table class="custom-table">
+                            <thead>
+                                <tr>
+                                    <td>resident no.</td>
+                                    <td>status</td>
+                                    <td>amount</td>
+                                    <td>transaction id</td>
+                                    <td>actions</td>
+                                </tr>
+    
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>287dasfg</td>
+                                    <td>PENDING</td>
+                                    <td>12.00</td>
+                                    <td>1e37f0-37sldg-dsa2-sdge3u</td>
+                                    <td>
+                                        <form action="">
+                                            <select class="action" name="" id="" >
+                                                <option value="">Actions</option>
+                                                <option value="">Approve Request</option>
+                                                <option value="">Reject Request</option>
+                                            </select>
+                                            <button type="submit">Go</button>
+                                        </form>
+                                        
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+    
+    
+                    <div class="pagination-wrapper">
+                        <div class="pagination">
+                            <a href="#">&laquo;</a>
+                            <a href="#">&#8249;</a>
+                            <a href="#" class="active">1</a>
+                            <a href="#">&#8250;</a>
+                            <a href="#">&raquo;</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+    
+        </div>
+  
+    </div>
+
+</body>
+
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
+</script>
+
+</html>

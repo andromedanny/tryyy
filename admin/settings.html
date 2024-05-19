@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="admin-css/settings.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <i class="fa-solid fa-city"></i>
+                <span>BSP</span>
+            </div>
+            <i class="fas fa-bars" id="btn"></i>
+        </div>
+
+        <div class="dashboard">
+            <ul>
+                <li>
+                    <a href="dashboard.html">
+                        <i class="fas fa-qrcode"></i>
+                        <span class="nav-item">Dashboard</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+
+        <div class="menu">
+            <h1>MENU</h1>
+            <ul>
+                <li>
+                    <a href="events-anns.html">
+                        <i class="fas fa-calendar"></i>
+                       <span class="nav-item">Events & Announcements</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="brgy.officials.html">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="nav-item">Brgy. Officials</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="certs-docs.html">
+                        <i class="fa-regular fa-file"></i>
+                        <span class="nav-item">Certificates & Documents</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="document-fees.html">
+                        <i class="fa-solid fa-peso-sign"></i>
+                        <span class="nav-item">Document Fees</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+
+        <div class="system">
+            <h1>SYSTEM</h1>
+            <ul>
+                <li>
+                    <a href="settings.html" class="active">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="nav-item">Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="log-out">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span class="nav-item">Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="main-content">
+        <div class="top">
+            <h1>Welcome Admin</h1>
+        </div>
+
+        <div class="header">
+            <p class="h1">Settings</p>
+        </div>
+  
+        <!-- laman ng menu niyo dito ilagay -->
+    </div>
+
+</body>
+
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active');
+    };
+</script>
+
+</html>

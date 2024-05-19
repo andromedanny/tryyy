@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(../images/main.png); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+:root{
+    --blue: #006EFF;
+    --dark: #252525;
+}
+
+.right-container .fa-city{
+    color: white;
+    font-size: 55px;
+    margin-left: 70px;
+    margin-bottom: 18px;
+}
+
+.wcome {
+    font-size:36px;
+    position: fixed;
+    right: 23%;
+    top: 31%;
+    transform: translateY(-50%);
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.port{
+    font-size:36px;
+    position: fixed;
+    right: 18%;
+    top: 42.5%;
+    transform: translateY(-50%);
+
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.des{
+    font-family: "Roboto", sans-serif;
+    font-size:14px;
+    position:fixed;
+    right:17.2%;
+    top:50%;
+    color:white;
+}
+
+.des1{
+    font-family: "Roboto", sans-serif;
+    font-size:14px;
+    position:fixed;
+    right:17.8%;
+    top:54%;
+    color:white;
+}
+
+.des2{
+    font-family: "Roboto", sans-serif;
+    font-size:14px;
+    position:fixed;
+    right:21%;
+    top:58%;
+    color:white;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    background-color: var(--dark);
+}
+
+.bsp-logo{
+    color: white;
+    width: 200px;
+    height: auto;
+    margin: 40px 0 35px 60px;
+    display: flex;
+}
+
+.bsp-logo .fa-city{
+    font-size: 35px;
+    color: var(--blue);
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.bsp{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+    color: white;
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    font-style: normal;
+    color: white;
+    margin: 50px 0 30px 120px;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: #6C6C6C;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.signup{
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin: 0 110px;
+}
+
+.signup label {
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 150;
+    font-size: 16px;
+    font-style: normal;
+    color: white;
+}
+
+.signup input {
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    color:white;
+}
+
+.signup button {
+    padding: 16px 165px;
+    font-size: 18px;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+}
